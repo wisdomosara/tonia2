@@ -1,0 +1,43 @@
+
+.float{
+    width:60px;
+ }
+ table{
+     background-color: white;
+     margin-bottom:10px;
+     border-radius: 5px;
+ }
+ 
+ th{
+     width:250px;
+     padding:2px 0 0 20px;
+     text-align: justify
+ }
+ .float img{
+     width:60px;
+     border-radius: 50%;
+ }
+ body{
+     background-color: blueviolet;
+     max-width: 100%;
+ }
+ .activate{
+     background-color: green;
+     color:white;
+     outline: none;
+     border-style: none;
+     border-radius: 5px;
+ }
+ .members{
+     display: flex;
+     justify-content: space-between;
+    margin-bottom: 30px;}
+    .warn{
+        margin-left:-200px;
+        width:150px;
+    }
+ th i{
+     position:absolute;
+     left:18px;
+     top:10px;
+ }

@@ -1,0 +1,121 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+  .form-group{
+      position:relative;
+  }
+  .smallPhoneImg{
+      display:none;
+  }
+ 
+  .form-control,.form-control-lg{
+      width: 100% !important;
+      height: 44px !important;
+      color: #524AAD;
+      font-weight: bold;
+  }
+    .form-control-placeholder {
+        position: absolute;
+        font-size:15px;
+        top: 0;
+        padding: 7px 0 0 24px;
+        transition: all 200ms;
+        color: #a5aeb7;
+    }
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+    font-size: 67%;
+    transform: translate3d(0, -10%, 0);
+    opacity: 1;
+    color: #a5aeb7;
+}
+
+.form-control:focus,.form-control:valid,.form-control-lg:focus,.form-control-lg:valid{
+   height: 44px;
+   width:  100%;
+   padding:1rem 1rem 0.1rem 1.5rem;
+   font-size:12px;  
+   color: #524AAD;
+}
+.form-control:focus{
+border-color: #524AAD; 
+}
+.span-input{
+    position:absolute;
+    height:44px;
+    width:10px;
+    background-color: #524AAD;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+.text-purple{
+  color: #524AAD!important;
+}
+
+h1.title{
+  margin-bottom: 5px;
+}
+.subtitle{ 
+  font-size: 32px;
+  display: block;
+  line-height: 40px;
+}
+.text-grey{
+  color: #a5aeb7!important;
+}
+.password_input_group{
+  margin-bottom: 15px: 
+}
+#password{
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#defaultCheck1{ 
+  margin-top: 7px; 
+}
+
+.forgot_password, .forgot_password:hover{
+  text-decoration: none;
+  color: #a5aeb7;
+}
+.login_button, .login_button:hover{
+  color: #fff;
+  background-color: #524AAD;
+  border-color: #524AAD;
+  padding: 3px 30px 6px;
+  box-shadow: 0px 1px 2px #524AAD, 0 0 25px#947adb, 0 0 5px #b1aac1;
+}
+.signup_button{
+  color: #524AAD;
+  border-color: #524AAD;
+  padding: 1px 25px 5px;
+  border-width: 2px;
+  margin-left: 10px;
+}
+.signup_button:hover{
+  color: #fff;
+  background-color: #524AAD;
+  border-color: #524AAD;
+  padding: 1px 25px 5px;
+}
+
+@media (max-width: 768px){
+    .smallPhoneImg{
+        display:flex;
+    }
+ .largePhoneImg{
+     display:none;
+ }
+ .card,.form-title,.card-input,.card-title{
+     margin:auto;
+ }
+
+ .form-title{
+     text-align:center;
+ }
+ .content{
+     padding-top:1rem !important;
+     padding-bottom:1rem !important;
+ }
+} 
